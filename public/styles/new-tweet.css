@@ -1,0 +1,25 @@
+.main {
+  background-color: #f4f1ec;
+  padding: 2%;
+}
+#tweet-text {
+  border: none;
+  outline: none;
+  background-color: #f4f1ec;
+  width: 100%;
+  line-height: 20px;
+  padding-bottom: -1%;
+  border-bottom-style: solid;
+}
+.btn {
+  font-family: "Bungee", cursive;
+  font-family: "Bungee Shade", cursive;
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  /* background-color: lightskyblue; */
+  background-color: #0499f2;
+  background-image: linear-gradient(315deg, #0499f2 0%, #26f596 74%);
+  /* font-family: "Source Sans Pro", sans-serif; */
+}
