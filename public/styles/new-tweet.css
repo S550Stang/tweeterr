@@ -1,25 +1,59 @@
-.main {
-  background-color: #f4f1ec;
-  padding: 2%;
+/*  compose tweet */
+.new-tweet {
+  width: 90%;
+  margin: 0.5em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 600;
 }
-#tweet-text {
+
+/* new tweet button */
+.submit-and-display button {
   border: none;
-  outline: none;
-  background-color: #f4f1ec;
-  width: 100%;
-  line-height: 20px;
-  padding-bottom: -1%;
-  border-bottom-style: solid;
+  font-size: medium;
+  font-family: "Bungee";
+  background-color:#545149;
+  color: #ffffff;
 }
-.btn {
-  font-family: "Bungee", cursive;
-  font-family: "Bungee Shade", cursive;
+
+.submit-and-display {
+  font-size: medium;
+  font-family: 'Bungee';
   display: flex;
   justify-content: space-between;
+  margin-top: 5px;
 }
-button {
-  /* background-color: lightskyblue; */
-  background-color: #0499f2;
-  background-image: linear-gradient(315deg, #0499f2 0%, #26f596 74%);
-  /* font-family: "Source Sans Pro", sans-serif; */
+
+label {
+  font-size: smaller;
+}
+
+/* new tweet box formatting */
+textarea {
+  outline: none;
+  overflow: hidden;
+  display: block;
+  resize: none;
+  border: none;
+  border-bottom: solid;
+  background-color: #f4f1ec;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 5px;
+  height: 30px;
+  width: 100%;
+}
+
+/* red font when words count exceeds 140 char */
+.negative-count {
+  color: red;
+}
+
+@media only screen and (min-width:1024px) {
+  .new-tweet {
+    width: 90%;
+  }
 }

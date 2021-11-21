@@ -1,0 +1,27 @@
+.head {
+  height: 400px;
+  background-color: #0499f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  width: 100%;
+  margin-top: 12%;
+}
+
+.head .name h2 {
+  color: white;
+  font-weight: 300;
+}
+
+.head .name h2 span {
+  font-weight: 600;
+}
+
+@media only screen and (min-width: 1024px) {
+  .head {
+    margin-top: 3%;
+    margin-left: 30%;
+    width: 500px;
+  }
+}
