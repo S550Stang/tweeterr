@@ -3,9 +3,6 @@ article:hover {
   color: #6c8c8c;
 }
 
-.mystyle:hover {
-  color: gold;
-}
 .tweet-head {
   font-size: 20px;
   margin: 0.5em;
@@ -66,11 +63,8 @@ article div {
   .container .tweet-container article {
     border: solid;
   }
-  .mystyle:hover {
-    color: gold;
-  }
+
   .tweet-container {
-    width: 100%;
-    padding: 2%;
+    width: 90%;
   }
 }

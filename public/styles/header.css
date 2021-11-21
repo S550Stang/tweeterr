@@ -6,7 +6,6 @@
   justify-content: center;
   flex-flow: column wrap;
   width: 100%;
-  margin-top: 12%;
 }
 
 .head .name h2 {
@@ -20,8 +19,8 @@
 
 @media only screen and (min-width: 1024px) {
   .head {
-    margin-top: 3%;
-    margin-left: 30%;
+    margin-top: 3.5em;
+    margin-left: 2em;
     width: 500px;
   }
 }
